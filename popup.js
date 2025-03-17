@@ -40,6 +40,7 @@ function updateBlockingRules(blockedSites) {
   });
 }
 
+// hien thi cac trang bi chan
 function displayBlockedSites() {
   chrome.storage.sync.get({ blockedSites: [] }, function (data) {
     let list = document.getElementById("blockedList");
