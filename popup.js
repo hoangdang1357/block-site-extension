@@ -40,7 +40,6 @@ function updateBlockingRules(blockedSites) {
   });
 }
 
-// Hiển thị danh sách đã chặn
 function displayBlockedSites() {
   chrome.storage.sync.get({ blockedSites: [] }, function (data) {
     let list = document.getElementById("blockedList");
