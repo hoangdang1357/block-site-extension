@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.google.com/" }
+    },
+    "condition": {
+      "urlFilter": "*example.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.google.com/" }
+    },
+    "condition": {
+      "urlFilter": "*://www.blockedsite.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.google.com/" }
+    },
+    "condition": {
+      "urlFilter": "*facebook.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.google.com/" }
+    },
+    "condition": {
+      "urlFilter": "*javhdz*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
