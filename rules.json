@@ -31,7 +31,7 @@
       "redirect": { "url": "https://www.google.com/" }
     },
     "condition": {
-      "urlFilter": "*facebook.com/*",
+      "urlFilter": "*face.com/*",
       "resourceTypes": ["main_frame"]
     }
   },
@@ -44,6 +44,18 @@
     },
     "condition": {
       "urlFilter": "*javhdz*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "https://www.google.com/" }
+    },
+    "condition": {
+      "urlFilter": "*ihentai*",
       "resourceTypes": ["main_frame"]
     }
   }
